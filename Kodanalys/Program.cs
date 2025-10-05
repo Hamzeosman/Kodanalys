@@ -12,7 +12,7 @@ namespace Kodanalys
             bool isRunning = true;
             while (isRunning)
             {
-                Console.WriteLine("1. Lägg till användare");
+                Console.WriteLine("1. Lägg till användare!");
                 Console.WriteLine("2. Visa användare");
                 Console.WriteLine("3. Ta bort användare");
                 Console.WriteLine("4. Sök användare");
