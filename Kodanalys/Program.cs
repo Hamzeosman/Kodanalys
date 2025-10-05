@@ -55,7 +55,7 @@ namespace Kodanalys
             Console.Write("Ange namn att ta bort: ");
             string name = Console.ReadLine();
             if (users.Remove(name))
-                Console.WriteLine("Användare borttagen.");
+                Console.WriteLine("Användare borttagen!.");
             else
                 Console.WriteLine("Användaren hittades inte.");
         }
